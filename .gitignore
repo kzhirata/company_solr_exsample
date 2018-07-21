@@ -1,2 +1,4 @@
 .DS_Store
 container/**/*
+data/*.csv
+!data/header.csv
