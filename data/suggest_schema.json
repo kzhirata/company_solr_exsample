@@ -1,0 +1,26 @@
+{
+  "add-field-type": {
+    "name": "text_ja_romaji",
+    "class": "solr.TextField",
+    "autoGeneratePhraseQueries": "false",
+    "positionIncrementGap": "100",
+    "analyzer": {
+      "tokenizer": {
+        "class": "solr.JapaneseTokenizerFactory",
+        "mode": "normal"
+      },
+      "filters": [
+        {
+          "class": "solr.CJKWidthFilterFactory"
+        },
+        {
+          "class": "solr.JapaneseReadingFormFilterFactory",
+          "useRomaji": "true"
+        },
+        {
+          "class": "solr.LowerCaseFilterFactory"
+        }
+      ]
+    }
+  }
+}
