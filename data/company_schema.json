@@ -1,0 +1,234 @@
+{
+"replace-field" : {
+	"name":"id",
+	"type":"string",
+	"indexed":"true",
+	"stored":"true",
+	"required":"true",
+	"multiValued":"false"
+},
+"add-field" : {
+        "name":"sequenceNumber",
+        "type":"string",
+        "indexed":"false",
+        "stored":"false",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"process",
+        "type":"string",
+        "indexed":"false",
+        "stored":"false",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"correct",
+        "type":"string",
+        "indexed":"false",
+        "stored":"false",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"updateDate",
+        "type":"pDate",
+        "indexed":"false",
+        "stored":"false",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"changeDate",
+        "type":"pDate",
+        "indexed":"false",
+        "stored":"false",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+	"name":"company_name",
+	"type":"text_ja",
+	"indexed":"true",
+	"stored":"true",
+	"required":"false",
+	"multiValued":"false"
+},
+"add-field" : {
+        "name":"nameImageId",
+        "type":"string",
+        "indexed":"false",
+        "stored":"false",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"kind",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"prefectureName",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"cityName",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"streetNumber",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"addressImageId",
+        "type":"string",
+        "indexed":"false",
+        "stored":"false",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"prefectureCode",
+        "type":"string",
+        "indexed":"true",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"cityCode",
+        "type":"string",
+        "indexed":"true",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"postCode",
+        "type":"string",
+        "indexed":"true",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"addressOutside",
+        "type":"string",
+        "indexed":"false",
+        "stored":"false",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"addressOutsideImageId",
+        "type":"string",
+        "indexed":"false",
+        "stored":"false",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"closeDate",
+        "type":"pDate",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"closeCause",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"successorCorporateNumber",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+}, 
+"add-field" : {
+        "name":"changeCause",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"assignmentDate",
+        "type":"pDate",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"latest",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"enName",
+        "type":"text_en",
+        "indexed":"true",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"enPrefectureName",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"enCityName",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+        "name":"enAddressOutside",
+        "type":"string",
+        "indexed":"false",
+        "stored":"true",
+        "required":"false",
+        "multiValued":"false"
+},
+"add-field" : {
+	"name":"furigana",
+	"type":"text_ja",
+	"indexed":"true",
+	"stored":"true",
+	"required":"false",
+	"multiValued":"false"
+}
+}
