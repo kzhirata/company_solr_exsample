@@ -33,7 +33,7 @@
 },
 "add-field" : {
         "name":"updateDate",
-        "type":"pDate",
+        "type":"pdate",
         "indexed":"false",
         "stored":"false",
         "required":"false",
@@ -41,7 +41,7 @@
 },
 "add-field" : {
         "name":"changeDate",
-        "type":"pDate",
+        "type":"pdate",
         "indexed":"false",
         "stored":"false",
         "required":"false",
@@ -145,7 +145,7 @@
 },
 "add-field" : {
         "name":"closeDate",
-        "type":"pDate",
+        "type":"pdate",
         "indexed":"false",
         "stored":"true",
         "required":"false",
@@ -177,7 +177,7 @@
 },
 "add-field" : {
         "name":"assignmentDate",
-        "type":"pDate",
+        "type":"pdate",
         "indexed":"false",
         "stored":"true",
         "required":"false",
