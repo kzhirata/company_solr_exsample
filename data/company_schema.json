@@ -73,24 +73,24 @@
 },
 "add-field" : {
         "name":"prefectureName",
-        "type":"string",
-        "indexed":"false",
+        "type":"text_ja",
+        "indexed":"true",
         "stored":"true",
         "required":"false",
         "multiValued":"false"
 },
 "add-field" : {
         "name":"cityName",
-        "type":"string",
-        "indexed":"false",
+        "type":"text_ja",
+        "indexed":"true",
         "stored":"true",
         "required":"false",
         "multiValued":"false"
 },
 "add-field" : {
         "name":"streetNumber",
-        "type":"string",
-        "indexed":"false",
+        "type":"text_ja",
+        "indexed":"true",
         "stored":"true",
         "required":"false",
         "multiValued":"false"
